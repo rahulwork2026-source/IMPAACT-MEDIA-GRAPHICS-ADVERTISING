@@ -24,7 +24,9 @@ export const Logo: React.FC<LogoProps> = ({
   };
 
   const currentSizeClass = sizeClasses[size] || sizeClasses.md;
-  const logoSrc = "/images/logonew-transparent.png";
+  const logoSrc = variant === "dark"
+    ? "/images/logonew-transparent.png"
+    : "/images/logonew-transparent-light.png";
 
   if (hasError) {
     // Elegant fallback if image asset is unavailable
