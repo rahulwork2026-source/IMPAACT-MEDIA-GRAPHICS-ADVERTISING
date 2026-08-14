@@ -13,7 +13,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'High-Resolution Polymer Resins & Filament',
       'Precision Post-Processing, Sanding & Painting'
     ],
-    image: '/images/service1.png',
+    image: '/images/service1.png?v=20260814',
     category: '3d-printing',
     iconName: 'Sparkles',
     estimatedPriceRange: 'OMR 25 - 500+',
@@ -30,7 +30,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Community Management & Response Handling',
       'Monthly Performance Analytics & Reporting'
     ],
-    image: '/images/service2.png',
+    image: '/images/service2.png?v=20260814',
     category: 'marketing',
     iconName: 'Layout',
     estimatedPriceRange: 'OMR 150 - 800 / month',
@@ -47,7 +47,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Brand Story & Positioning Framework',
       'Tagline & Slogan Creation'
     ],
-    image: '/images/service3.png',
+    image: '/images/service3.png?v=20260814',
     category: 'branding',
     iconName: 'Palette',
     estimatedPriceRange: 'OMR 120 - 350',
@@ -64,7 +64,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Dark & Light Background Adaptations',
       'Master Files Delivered (AI, EPS, SVG, PNG, PDF)'
     ],
-    image: '/images/service4.png',
+    image: '/images/service4.png?v=20260814',
     category: 'branding',
     iconName: 'Palette',
     estimatedPriceRange: 'OMR 75 - 500',
@@ -81,7 +81,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Quick 24-Hour Express Turnaround',
       'Bilingual Layout Formatting (Arabic/English)'
     ],
-    image: '/images/service5.png',
+    image: '/images/service5.png?v=20260814',
     category: 'digital-media',
     iconName: 'Layout',
     estimatedPriceRange: 'OMR 15 - 100',
@@ -98,7 +98,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Neon Flex & Architectural Accent Lighting',
       'MOCI Approvals & Structural Engineering'
     ],
-    image: '/images/service6.png',
+    image: '/images/service6.png?v=20260814',
     category: 'signage',
     iconName: 'Sparkles',
     estimatedPriceRange: 'OMR 150 - 5,000+',
@@ -115,7 +115,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Reflective Safety Fleet Striping',
       'Seamless Paint-Safe Vinyl Removal'
     ],
-    image: '/images/service7.png',
+    image: '/images/service7.png?v=20260814',
     category: 'wrapping',
     iconName: 'Car',
     estimatedPriceRange: 'OMR 80 - 1,500+',
@@ -132,7 +132,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Micron Tolerances with Smooth Edge Finishing',
       'Custom Metal Fabrication & Powder Coating'
     ],
-    image: '/images/service8.png',
+    image: '/images/service8.png?v=20260814',
     category: 'signage',
     iconName: 'Sparkles',
     estimatedPriceRange: 'OMR 25 - 1,000+',
@@ -149,7 +149,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Wooden & Crystal Award Customization',
       'Industrial Metal Machine Rating Plates'
     ],
-    image: '/images/service9.png',
+    image: '/images/service9.png?v=20260814',
     category: 'printing',
     iconName: 'Printer',
     estimatedPriceRange: 'OMR 10 - 300+',
@@ -166,7 +166,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Weatherproof Outdoor UV Cured Inks',
       'High-Volume Commercial Production'
     ],
-    image: '/images/service10.png',
+    image: '/images/service10.png?v=20260814',
     category: 'printing',
     iconName: 'Printer',
     estimatedPriceRange: 'OMR 20 - 750+',
@@ -183,7 +183,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'High-Tension Weatherproof Mesh & Vinyl Banners',
       'Illuminated LED Floodlight Lighting Setup'
     ],
-    image: '/images/service11.png',
+    image: '/images/service11.png?v=20260814',
     category: 'signage',
     iconName: 'Sparkles',
     estimatedPriceRange: 'OMR 250 - 10,000+',
@@ -200,7 +200,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Padded Travel Carrying Bags Included',
       'Double-Sided Printing Capabilities'
     ],
-    image: '/images/service12.png',
+    image: '/images/service12.png?v=20260814',
     category: 'events',
     iconName: 'Layout',
     estimatedPriceRange: 'OMR 15 - 400+',
@@ -217,7 +217,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Emergency Evacuation Route Maps',
       'Interchangeable Sliding Nameplate Panels'
     ],
-    image: '/images/service13.png',
+    image: '/images/service13.png?v=20260814',
     category: 'signage',
     iconName: 'Sparkles',
     estimatedPriceRange: 'OMR 50 - 2,000+',
@@ -234,7 +234,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Perfect Bound, Saddle Stitch, or Wire-O Binding',
       'Premium FSC Certified Luxury Paper Stocks'
     ],
-    image: '/images/service14.png',
+    image: '/images/service14.png?v=20260814',
     category: 'printing',
     iconName: 'Printer',
     estimatedPriceRange: 'OMR 75 - 1,500+',
@@ -251,7 +251,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Professional Color Grading & Sound Design',
       'Royalty-Free Commercial Audio & Voiceovers'
     ],
-    image: '/images/service15.png',
+    image: '/images/service15.png?v=20260814',
     category: 'digital-media',
     iconName: 'Video',
     estimatedPriceRange: 'OMR 150 - 2,500+',
@@ -268,7 +268,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Mall Management Compliant Night Shift Install',
       'Removable Non-Residual Architectural Vinyl'
     ],
-    image: '/images/service16.png',
+    image: '/images/service16.png?v=20260814',
     category: 'branding',
     iconName: 'Layout',
     estimatedPriceRange: 'OMR 200 - 5,000+',
@@ -285,7 +285,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Employee PVC ID Cards & Lanyards',
       'Self-Inking Corporate Rubber Stamps'
     ],
-    image: '/images/service17.png',
+    image: '/images/service17.png?v=20260814',
     category: 'printing',
     iconName: 'Printer',
     estimatedPriceRange: 'OMR 50 - 1,000+',
@@ -302,7 +302,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Custom Die-Cutting & Finishing Supervision',
       'Reliable Doorstep Delivery Across Oman'
     ],
-    image: '/images/service18.png',
+    image: '/images/service18.png?v=20260814',
     category: 'print-management',
     iconName: 'Printer',
     estimatedPriceRange: 'Custom quote',
@@ -319,7 +319,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Coloured Edge Painting & Gilding',
       'Embedded Smart NFC Chip Integration'
     ],
-    image: '/images/service19.png',
+    image: '/images/service19.png?v=20260814',
     category: 'printing',
     iconName: 'Printer',
     estimatedPriceRange: 'OMR 20 - 250+',
@@ -336,7 +336,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Backlit LED Slim Menu Boards',
       'QR Code Digital Menu Integration'
     ],
-    image: '/images/service20.png',
+    image: '/images/service20.png?v=20260814',
     category: 'printing',
     iconName: 'Printer',
     estimatedPriceRange: 'OMR 25 - 500+',
@@ -353,7 +353,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Multiple Aspect Ratios (16:9, 9:16, 1:1)',
       'Looping GIF & MP4 Delivery'
     ],
-    image: '/images/service21.png',
+    image: '/images/service21.png?v=20260814',
     category: 'digital-media',
     iconName: 'Video',
     estimatedPriceRange: 'OMR 75 - 600',
@@ -370,7 +370,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Cross-Platform Mobile & Desktop Testing',
       'Easy Company-Wide Deployment Guide'
     ],
-    image: '/images/service22.png',
+    image: '/images/service22.png?v=20260814',
     category: 'digital-media',
     iconName: 'Layout',
     estimatedPriceRange: 'OMR 15 - 100',
@@ -387,7 +387,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'WhatsApp & Instant Quote Forms Integration',
       'SEO Optimized for GCC Search Engines'
     ],
-    image: '/images/service23.png',
+    image: '/images/service23.png?v=20260814',
     category: 'digital-media',
     iconName: 'Layout',
     estimatedPriceRange: 'OMR 250 - 3,000+',
