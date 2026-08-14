@@ -24,7 +24,7 @@ export const Logo: React.FC<LogoProps> = ({
   };
 
   const currentSizeClass = sizeClasses[size] || sizeClasses.md;
-  const logoSrc = "/images/logonew-header.png";
+  const logoSrc = "/images/logonew-transparent.png";
 
   if (hasError) {
     // Elegant fallback if image asset is unavailable
@@ -54,7 +54,7 @@ export const Logo: React.FC<LogoProps> = ({
 
   return (
     <div
-      className={`logo inline-flex items-center justify-center overflow-hidden rounded-sm bg-white p-0.5 select-none transition-transform duration-200 hover:scale-[1.02] ${className}`}
+      className={`logo inline-flex items-center justify-center select-none transition-transform duration-200 hover:scale-[1.02] ${className}`}
     >
       <img
         id={id}
@@ -63,7 +63,7 @@ export const Logo: React.FC<LogoProps> = ({
         onError={(e) => {
           setHasError(true);
         }}
-        className={`${currentSizeClass} object-contain transition-all duration-300`}
+        className={`${currentSizeClass} object-contain drop-shadow-[0_1px_2px_rgba(0,0,0,0.35)] transition-all duration-300`}
         style={{
           verticalAlign: "middle",
         }}
