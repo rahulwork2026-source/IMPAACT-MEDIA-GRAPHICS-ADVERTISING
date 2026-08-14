@@ -414,7 +414,7 @@ export const INITIAL_PORTFOLIO: PortfolioItem[] = [
     client: 'Oasis Oman',
     location: 'Oman Convention & Exhibition Centre',
     year: '2025',
-    coverImage: '/images/portfolio2.png',
+    coverImage: '/images/Portfolio2.png',
     description: 'Precision 3D printed architectural scale models, complex lattice geometry, prototype product designs, and custom acrylic structures.',
     tags: ['3D Printing', 'Scale Models', 'Prototyping', 'Architectural'],
     featured: true
