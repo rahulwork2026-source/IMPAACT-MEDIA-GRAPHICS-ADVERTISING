@@ -14,6 +14,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Precision Post-Processing, Sanding & Painting'
     ],
     image: '/images/service1.png',
+    category: '3d-printing',
+    iconName: 'Sparkles',
+    estimatedPriceRange: 'OMR 25 - 500+',
   },
   {
     id: 'srv-social-marketing',
@@ -28,6 +31,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Monthly Performance Analytics & Reporting'
     ],
     image: '/images/service2.png',
+    category: 'marketing',
+    iconName: 'Layout',
+    estimatedPriceRange: 'OMR 150 - 800 / month',
   },
   {
     id: 'srv-brand-naming',
@@ -42,6 +48,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Tagline & Slogan Creation'
     ],
     image: '/images/service3.png',
+    category: 'branding',
+    iconName: 'Palette',
+    estimatedPriceRange: 'OMR 120 - 350',
   },
   {
     id: 'srv-logo-design',
@@ -56,6 +65,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Master Files Delivered (AI, EPS, SVG, PNG, PDF)'
     ],
     image: '/images/service4.png',
+    category: 'branding',
+    iconName: 'Palette',
+    estimatedPriceRange: 'OMR 75 - 500',
   },
   {
     id: 'srv-eflyers',
@@ -70,6 +82,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Bilingual Layout Formatting (Arabic/English)'
     ],
     image: '/images/service5.png',
+    category: 'digital-media',
+    iconName: 'Layout',
+    estimatedPriceRange: 'OMR 15 - 100',
   },
   {
     id: 'srv-signages',
@@ -84,6 +99,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'MOCI Approvals & Structural Engineering'
     ],
     image: '/images/service6.png',
+    category: 'signage',
+    iconName: 'Sparkles',
+    estimatedPriceRange: 'OMR 150 - 5,000+',
   },
   {
     id: 'srv-vehicle-wraps',
@@ -98,6 +116,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Seamless Paint-Safe Vinyl Removal'
     ],
     image: '/images/service7.png',
+    category: 'wrapping',
+    iconName: 'Car',
+    estimatedPriceRange: 'OMR 80 - 1,500+',
   },
   {
     id: 'srv-3d-laser-cut',
@@ -112,6 +133,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Custom Metal Fabrication & Powder Coating'
     ],
     image: '/images/service8.png',
+    category: 'signage',
+    iconName: 'Sparkles',
+    estimatedPriceRange: 'OMR 25 - 1,000+',
   },
   {
     id: 'srv-engraving',
@@ -126,6 +150,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Industrial Metal Machine Rating Plates'
     ],
     image: '/images/service9.png',
+    category: 'printing',
+    iconName: 'Printer',
+    estimatedPriceRange: 'OMR 10 - 300+',
   },
   {
     id: 'srv-uv-printing',
@@ -140,6 +167,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'High-Volume Commercial Production'
     ],
     image: '/images/service10.png',
+    category: 'printing',
+    iconName: 'Printer',
+    estimatedPriceRange: 'OMR 20 - 750+',
   },
   {
     id: 'srv-billboards',
@@ -154,6 +184,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Illuminated LED Floodlight Lighting Setup'
     ],
     image: '/images/service11.png',
+    category: 'signage',
+    iconName: 'Sparkles',
+    estimatedPriceRange: 'OMR 250 - 10,000+',
   },
   {
     id: 'srv-pullup-banners',
@@ -168,6 +201,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Double-Sided Printing Capabilities'
     ],
     image: '/images/service12.png',
+    category: 'events',
+    iconName: 'Layout',
+    estimatedPriceRange: 'OMR 15 - 400+',
   },
   {
     id: 'srv-directional-signs',
@@ -182,6 +218,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Interchangeable Sliding Nameplate Panels'
     ],
     image: '/images/service13.png',
+    category: 'signage',
+    iconName: 'Sparkles',
+    estimatedPriceRange: 'OMR 50 - 2,000+',
   },
   {
     id: 'srv-brochures',
@@ -196,6 +235,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Premium FSC Certified Luxury Paper Stocks'
     ],
     image: '/images/service14.png',
+    category: 'printing',
+    iconName: 'Printer',
+    estimatedPriceRange: 'OMR 75 - 1,500+',
   },
   {
     id: 'srv-video-photo',
@@ -210,6 +252,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Royalty-Free Commercial Audio & Voiceovers'
     ],
     image: '/images/service15.png',
+    category: 'digital-media',
+    iconName: 'Video',
+    estimatedPriceRange: 'OMR 150 - 2,500+',
   },
   {
     id: 'srv-mall-branding',
@@ -224,6 +269,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Removable Non-Residual Architectural Vinyl'
     ],
     image: '/images/service16.png',
+    category: 'branding',
+    iconName: 'Layout',
+    estimatedPriceRange: 'OMR 200 - 5,000+',
   },
   {
     id: 'srv-corp-stationery',
@@ -238,6 +286,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Self-Inking Corporate Rubber Stamps'
     ],
     image: '/images/service17.png',
+    category: 'printing',
+    iconName: 'Printer',
+    estimatedPriceRange: 'OMR 50 - 1,000+',
   },
   {
     id: 'srv-print-mgmt',
@@ -252,6 +303,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Reliable Doorstep Delivery Across Oman'
     ],
     image: '/images/service18.png',
+    category: 'print-management',
+    iconName: 'Printer',
+    estimatedPriceRange: 'Custom quote',
   },
   {
     id: 'srv-business-stationery',
@@ -266,6 +320,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Embedded Smart NFC Chip Integration'
     ],
     image: '/images/service19.png',
+    category: 'printing',
+    iconName: 'Printer',
+    estimatedPriceRange: 'OMR 20 - 250+',
   },
   {
     id: 'srv-menu-printing',
@@ -280,6 +337,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'QR Code Digital Menu Integration'
     ],
     image: '/images/service20.png',
+    category: 'printing',
+    iconName: 'Printer',
+    estimatedPriceRange: 'OMR 25 - 500+',
   },
   {
     id: 'srv-logo-animation',
@@ -294,6 +354,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Looping GIF & MP4 Delivery'
     ],
     image: '/images/service21.png',
+    category: 'digital-media',
+    iconName: 'Video',
+    estimatedPriceRange: 'OMR 75 - 600',
   },
   {
     id: 'srv-email-signatures',
@@ -308,6 +371,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Easy Company-Wide Deployment Guide'
     ],
     image: '/images/service22.png',
+    category: 'digital-media',
+    iconName: 'Layout',
+    estimatedPriceRange: 'OMR 15 - 100',
   },
   {
     id: 'srv-websites',
@@ -322,6 +388,9 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'SEO Optimized for GCC Search Engines'
     ],
     image: '/images/service23.png',
+    category: 'digital-media',
+    iconName: 'Layout',
+    estimatedPriceRange: 'OMR 250 - 3,000+',
   }
 ];
 
