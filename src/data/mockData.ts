@@ -4,7 +4,6 @@ export const INITIAL_SERVICES: ServiceItem[] = [
   {
     id: 'srv-3d-printing',
     title: '3D Printing',
-    category: '3d-printing',
     shortDesc: 'Custom additive 3D printing for architectural scale models, industrial prototypes, promotional items, and 3D dimensional lettering.',
     fullDesc: 'High-precision SLA & FDM 3D printing using durable polymers and composite resins. Perfect for architectural mockups, rapid product prototypes, custom trophy components, and intricate 3D brand displays in Oman.',
     features: [
@@ -14,14 +13,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'High-Resolution Polymer Resins & Filament',
       'Precision Post-Processing, Sanding & Painting'
     ],
-    iconName: 'Printer',
-    image: '/images/service3.png',
-    estimatedPriceRange: 'OMR 50 - 450'
+    image: '/images/service1.png',
   },
   {
     id: 'srv-social-marketing',
     title: 'Social Media Marketing',
-    category: 'digital-media',
     shortDesc: 'Data-driven social media campaign management, content creation, audience engagement, and targeted paid advertising across GCC platforms.',
     fullDesc: 'Elevate your brand presence across Instagram, LinkedIn, TikTok, and Facebook. Our dedicated social team handles bilingual content creation (Arabic & English), reels, ad campaign optimization, and monthly performance analytics.',
     features: [
@@ -31,14 +27,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Community Management & Response Handling',
       'Monthly Performance Analytics & Reporting'
     ],
-    iconName: 'Video',
-    image: '/images/service6.png',
-    estimatedPriceRange: 'OMR 150 - 850 / mo'
+    image: '/images/service2.png',
   },
   {
     id: 'srv-brand-naming',
     title: 'Brand Naming',
-    category: 'branding',
     shortDesc: 'Strategic, culturally relevant brand naming, tagline development, domain verification, and trademark checking for businesses in Oman.',
     fullDesc: 'Create a resonant name that stands out in the GCC market. We combine linguistic analysis, cultural fit in Oman, trademark pre-checks, and commercial appeal to craft brand names that leave a lasting legacy.',
     features: [
@@ -48,14 +41,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Brand Story & Positioning Framework',
       'Tagline & Slogan Creation'
     ],
-    iconName: 'Palette',
-    image: '/images/service4.png',
-    estimatedPriceRange: 'OMR 250 - 900'
+    image: '/images/service3.png',
   },
   {
     id: 'srv-logo-design',
     title: 'Logo Design',
-    category: 'branding',
     shortDesc: 'Custom vector logo design, iconic brand marks, typography selection, and comprehensive brand identity style guides.',
     fullDesc: 'Crafted by seasoned graphic designers, our logos embody your company\'s core values. Delivered in full scalable vector formats with dark/light variations, sub-marks, color system definitions, and usage rules.',
     features: [
@@ -65,14 +55,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Dark & Light Background Adaptations',
       'Master Files Delivered (AI, EPS, SVG, PNG, PDF)'
     ],
-    iconName: 'Palette',
-    image: '/images/banner_image_4.png',
-    estimatedPriceRange: 'OMR 180 - 750'
+    image: '/images/service4.png',
   },
   {
     id: 'srv-eflyers',
     title: 'E-Flyers',
-    category: 'digital-media',
     shortDesc: 'High-converting digital promotional flyers, WhatsApp graphics, mobile promo cards, and interactive event announcements.',
     fullDesc: 'Captivate mobile audiences instantly. Optimized specifically for WhatsApp broadcasting, Instagram stories, and email newsletters with crystal clear typography and eye-catching visual hierarchy.',
     features: [
@@ -82,14 +69,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Quick 24-Hour Express Turnaround',
       'Bilingual Layout Formatting (Arabic/English)'
     ],
-    iconName: 'Layout',
-    image: '/images/service6.png',
-    estimatedPriceRange: 'OMR 25 - 120'
+    image: '/images/service5.png',
   },
   {
     id: 'srv-signages',
     title: 'Signages',
-    category: 'signage',
     shortDesc: '3D LED backlit letters, rooftop building signs, acrylic lightboxes, neon flex, and monumental outdoor architectural signages.',
     fullDesc: 'Oman\'s premier signage fabrication. Using 3D channel letter benders, weather-proof outdoor LEDs, stainless steel 316 casings, and heavy-duty structural steel frames engineered for desert heat and coastal conditions.',
     features: [
@@ -99,14 +83,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Neon Flex & Architectural Accent Lighting',
       'MOCI Approvals & Structural Engineering'
     ],
-    iconName: 'Sparkles',
-    image: '/images/service1.png',
-    estimatedPriceRange: 'OMR 200 - 4,500'
+    image: '/images/service6.png',
   },
   {
     id: 'srv-vehicle-wraps',
     title: 'Vehicle Wraps',
-    category: 'wrapping',
     shortDesc: 'Full commercial fleet wraps, partial van graphics, luxury color change wraps, and UV-laminated protective vinyls.',
     fullDesc: 'Turn your delivery fleet into high-impact mobile billboards. We use premium 3M & Avery Dennison cast vinyls laminated against Oman solar radiation, installed by certified wrap technicians in our climate-controlled bay.',
     features: [
@@ -116,14 +97,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Reflective Safety Fleet Striping',
       'Seamless Paint-Safe Vinyl Removal'
     ],
-    iconName: 'Car',
-    image: '/images/service2.png',
-    estimatedPriceRange: 'OMR 120 - 1,400'
+    image: '/images/service7.png',
   },
   {
     id: 'srv-3d-laser-cut',
     title: '3D Laser Cut',
-    category: '3d-printing',
     shortDesc: 'Fiber laser cutting for stainless steel, brass, aluminum, acrylic, wood, and architectural perforated metal screens.',
     fullDesc: 'High-power fiber laser cutting delivering micron-level accuracy on metal sheets up to 20mm thick. Ideal for decorative wall partitions, 3D metal logos, custom hotel screens, and industrial components.',
     features: [
@@ -133,14 +111,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Micron Tolerances with Smooth Edge Finishing',
       'Custom Metal Fabrication & Powder Coating'
     ],
-    iconName: 'Sparkles',
-    image: '/images/banner_image_1.png',
-    estimatedPriceRange: 'OMR 40 - 650'
+    image: '/images/service8.png',
   },
   {
     id: 'srv-engraving',
     title: 'Engraving',
-    category: '3d-printing',
     shortDesc: 'Chemical, rotary, and laser engraving on brass plates, stainless steel plaques, wooden awards, and corporate trophies.',
     fullDesc: 'Permanent, high-detail engraving for VIP door plates, executive desk nameplates, industrial machine tags, hotel room numbers, and commemorative award plaques with enamel color fill.',
     features: [
@@ -150,14 +125,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Wooden & Crystal Award Customization',
       'Industrial Metal Machine Rating Plates'
     ],
-    iconName: 'Printer',
-    image: '/images/portfolio2.png',
-    estimatedPriceRange: 'OMR 30 - 350'
+    image: '/images/service9.png',
   },
   {
     id: 'srv-uv-printing',
     title: 'UV Printing',
-    category: '3d-printing',
     shortDesc: 'Direct-to-substrate UV flatbed printing on glass, wood, acrylic, ceramic tiles, aluminum composite, and phone cases.',
     fullDesc: 'Instant UV-cured printing that bonds directly to any rigid surface up to 100mm thick. Features white ink printing for transparent acrylics, raised varnish 3D textures, and vibrant fade-resistant colors.',
     features: [
@@ -167,14 +139,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Weatherproof Outdoor UV Cured Inks',
       'High-Volume Commercial Production'
     ],
-    iconName: 'Printer',
-    image: '/images/service3.png',
-    estimatedPriceRange: 'OMR 35 - 500'
+    image: '/images/service10.png',
   },
   {
     id: 'srv-billboards',
     title: 'Billboards & Site Signs',
-    category: 'signage',
     shortDesc: 'Heavy-duty outdoor highway billboards, hoarding construction signs, unipoles, and perimeter graphics.',
     fullDesc: 'Command maximum attention across Oman\'s major highways and development sites. From sturdy steel unipole structures to site perimeter hoarding vinyls that showcase upcoming real estate projects.',
     features: [
@@ -184,14 +153,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'High-Tension Weatherproof Mesh & Vinyl Banners',
       'Illuminated LED Floodlight Lighting Setup'
     ],
-    iconName: 'Layout',
-    image: '/images/banner_image_3.png',
-    estimatedPriceRange: 'OMR 450 - 8,000'
+    image: '/images/service11.png',
   },
   {
     id: 'srv-pullup-banners',
     title: 'Pull Up & Flag Banners',
-    category: 'signage',
     shortDesc: 'Portable rollup pull-up banners, teardrop flags, feather banners, pop-up backdrops, and event display stands.',
     fullDesc: 'Lightweight, highly portable display solutions for trade shows, retail entrances, and corporate events. Built with heavy aluminum bases and non-curling matte blockout film prints.',
     features: [
@@ -201,14 +167,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Padded Travel Carrying Bags Included',
       'Double-Sided Printing Capabilities'
     ],
-    iconName: 'Layout',
-    image: '/images/service5.png',
-    estimatedPriceRange: 'OMR 25 - 180'
+    image: '/images/service12.png',
   },
   {
     id: 'srv-directional-signs',
     title: 'Directional Signs',
-    category: 'signage',
     shortDesc: 'Architectural wayfinding systems, hospital/hotel floor directories, braille ADA signs, and outdoor directional pylons.',
     fullDesc: 'Ensure effortless navigation across commercial towers, hospitals, malls, and university campuses. Designed following international wayfinding standards with modular interchangeable inserts.',
     features: [
@@ -218,14 +181,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Emergency Evacuation Route Maps',
       'Interchangeable Sliding Nameplate Panels'
     ],
-    iconName: 'Sparkles',
-    image: '/images/service1.png',
-    estimatedPriceRange: 'OMR 65 - 1,200'
+    image: '/images/service13.png',
   },
   {
     id: 'srv-brochures',
     title: 'Brochures & Catalogues',
-    category: 'print-management',
     shortDesc: 'Executive multi-page corporate brochures, product catalogues, foil-stamped profile books, and custom die-cut folders.',
     fullDesc: 'Tangible sales tools that command trust. Choose from luxury textured papers, spot UV gloss highlights, metallic hot foil stamping, soft-touch matte lamination, and PUR perfect binding.',
     features: [
@@ -235,14 +195,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Perfect Bound, Saddle Stitch, or Wire-O Binding',
       'Premium FSC Certified Luxury Paper Stocks'
     ],
-    iconName: 'Printer',
-    image: '/images/banner_image_4.png',
-    estimatedPriceRange: 'OMR 90 - 1,100'
+    image: '/images/service14.png',
   },
   {
     id: 'srv-video-photo',
     title: 'Video & Photography',
-    category: 'digital-media',
     shortDesc: 'Corporate video production, drone aerial videography, factory showcase shoots, product photography, and event coverage.',
     fullDesc: 'High-definition 4K video storytelling and commercial photography. Perfect for showcasing completed signage installations, factory operations, corporate profiles, and promotional ad commercials.',
     features: [
@@ -252,14 +209,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Professional Color Grading & Sound Design',
       'Royalty-Free Commercial Audio & Voiceovers'
     ],
-    iconName: 'Video',
-    image: '/images/service6.png',
-    estimatedPriceRange: 'OMR 200 - 1,800'
+    image: '/images/service15.png',
   },
   {
     id: 'srv-mall-branding',
     title: 'Mall Branding',
-    category: 'signage',
     shortDesc: 'Mall atrium hanging banners, escalator graphics, pillar wraps, elevator door vinyls, and store kiosk branding.',
     fullDesc: 'Capture shopper footfall in Muscat\'s top retail malls. We handle end-to-end mall management approvals, night-shift installation, removable non-damaging adhesive vinyls, and high-impact visual banners.',
     features: [
@@ -269,14 +223,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Mall Management Compliant Night Shift Install',
       'Removable Non-Residual Architectural Vinyl'
     ],
-    iconName: 'Layout',
-    image: '/images/banner_image_3.png',
-    estimatedPriceRange: 'OMR 180 - 2,500'
+    image: '/images/service16.png',
   },
   {
     id: 'srv-corp-stationery',
     title: 'Corporate Stationery',
-    category: 'branding',
     shortDesc: 'Complete corporate stationery kits, letterheads, presentation folders, envelopes, rubber stamps, and ID cards.',
     fullDesc: 'Project professionalism in every client interaction. We print complete matching stationery sets on premium paper with unified brand color management across offset and digital runs.',
     features: [
@@ -286,14 +237,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Employee PVC ID Cards & Lanyards',
       'Self-Inking Corporate Rubber Stamps'
     ],
-    iconName: 'Palette',
-    image: '/images/service4.png',
-    estimatedPriceRange: 'OMR 80 - 450'
+    image: '/images/service17.png',
   },
   {
     id: 'srv-print-mgmt',
     title: 'Print Management',
-    category: 'print-management',
     shortDesc: 'End-to-end commercial print procurement, color calibration, bulk offset printing, quality control, and doorstep delivery in Oman.',
     fullDesc: 'Eliminate printing errors and vendor stress. We manage your entire corporate print supply chain, ensuring strict Pantone color matching, stock selection, press proof approvals, and scheduled delivery.',
     features: [
@@ -303,14 +251,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Custom Die-Cutting & Finishing Supervision',
       'Reliable Doorstep Delivery Across Oman'
     ],
-    iconName: 'Printer',
-    image: '/images/service3.png',
-    estimatedPriceRange: 'OMR 100 - 3,000'
+    image: '/images/service18.png',
   },
   {
     id: 'srv-business-stationery',
     title: 'Business Stationery',
-    category: 'branding',
     shortDesc: 'Luxury business cards with thick cotton stocks, painted edges, raised spot UV, metallic foil, and NFC digital integration.',
     fullDesc: 'Make an unforgettable first impression. From 600gsm ultra-thick cotton business cards to sleek velvet-touch cards with metallic foil accents and embedded smart NFC tap technology.',
     features: [
@@ -320,14 +265,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Coloured Edge Painting & Gilding',
       'Embedded Smart NFC Chip Integration'
     ],
-    iconName: 'Palette',
-    image: '/images/service4.png',
-    estimatedPriceRange: 'OMR 20 - 150'
+    image: '/images/service19.png',
   },
   {
     id: 'srv-menu-printing',
     title: 'Menu Printing',
-    category: 'print-management',
     shortDesc: 'Waterproof restaurant menus, synthetic tear-proof sheets, leather menu covers, table tents, and illuminated LED menus.',
     fullDesc: 'Built to withstand heavy daily handling and liquid spills in busy restaurants and cafes. Printed on synthetic non-tear washable paper or encased in custom debossed leatherette covers.',
     features: [
@@ -337,14 +279,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Backlit LED Slim Menu Boards',
       'QR Code Digital Menu Integration'
     ],
-    iconName: 'Printer',
-    image: '/images/service3.png',
-    estimatedPriceRange: 'OMR 35 - 350'
+    image: '/images/service20.png',
   },
   {
     id: 'srv-logo-animation',
     title: 'Logo Animation',
-    category: 'digital-media',
     shortDesc: '3D motion graphics, animated logo intro stings, 4K video bumpers, social media idents, and digital display animations.',
     fullDesc: 'Bring your brand mark to life with fluid 3D motion dynamics. Perfect for YouTube intros, corporate video headers, digital LED billboard screens, and Instagram stories.',
     features: [
@@ -354,14 +293,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Multiple Aspect Ratios (16:9, 9:16, 1:1)',
       'Looping GIF & MP4 Delivery'
     ],
-    iconName: 'Video',
-    image: '/images/banner_image_4.png',
-    estimatedPriceRange: 'OMR 75 - 400'
+    image: '/images/service21.png',
   },
   {
     id: 'srv-email-signatures',
     title: 'Email Signatures',
-    category: 'digital-media',
     shortDesc: 'Clickable HTML email signatures with responsive layouts, promotional banners, social links, and Outlook/Gmail compatibility.',
     fullDesc: 'Standardize your company\'s email communications. We code clean, responsive HTML signatures that work flawlessly across Outlook, Apple Mail, Gmail, and mobile mail apps.',
     features: [
@@ -371,14 +307,11 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'Cross-Platform Mobile & Desktop Testing',
       'Easy Company-Wide Deployment Guide'
     ],
-    iconName: 'Layout',
-    image: '/images/service4.png',
-    estimatedPriceRange: 'OMR 15 - 80'
+    image: '/images/service22.png',
   },
   {
     id: 'srv-websites',
     title: 'Websites',
-    category: 'digital-media',
     shortDesc: 'Modern responsive corporate websites, high-converting landing pages, digital portfolios, and CMS solutions for Oman businesses.',
     fullDesc: 'Fast, ultra-sleek, mobile-first web applications built with modern frameworks. Complete with SEO optimization, WhatsApp lead integration, contact forms, and bilingual Arabic/English support.',
     features: [
@@ -388,9 +321,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
       'WhatsApp & Instant Quote Forms Integration',
       'SEO Optimized for GCC Search Engines'
     ],
-    iconName: 'Layout',
-    image: '/images/banner_image_2.png',
-    estimatedPriceRange: 'OMR 300 - 2,200'
+    image: '/images/service23.png',
   }
 ];
 
@@ -402,7 +333,7 @@ export const INITIAL_PORTFOLIO: PortfolioItem[] = [
     client: 'Regus Oman',
     location: 'Muscat, Oman',
     year: '2025',
-    coverImage: '/images/banner_image_2.png',
+    coverImage: '/images/Portfolio1.png',
     description: 'Design, fabrication, and high-altitude installation of heavy-duty backlit lobby totems and 3D LED channel letters for commercial towers.',
     tags: ['Rooftop Signage', '3D LED', 'Backlit Totem', 'Architectural'],
     featured: true
@@ -426,7 +357,7 @@ export const INITIAL_PORTFOLIO: PortfolioItem[] = [
     client: 'Averda Environmental Services',
     location: 'Sultanate of Oman',
     year: '2024',
-    coverImage: '/images/banner_image_4.png',
+    coverImage: '/images/Portfolio3.png',
     description: 'Full vinyl fleet wrapping for commercial utility trucks and luxury vehicles with vibrant UV-laminated geometric graphics.',
     tags: ['Fleet Wrap', 'UV Vinyl', 'Reflective Safety', 'Vehicle Wrapping'],
     featured: true
@@ -438,7 +369,7 @@ export const INITIAL_PORTFOLIO: PortfolioItem[] = [
     client: 'Hills Avenue Retail',
     location: 'Muscat Mall',
     year: '2025',
-    coverImage: '/images/banner_image_3.png',
+    coverImage: '/images/Portfolio4.png',
     description: 'Architectural mall front branding featuring ultra-slim backlit LED panels, acrylic dimensional lettering, and wayfinding safety signs.',
     tags: ['Mall Branding', 'Backlit Signs', 'Acrylic 3D', 'Retail'],
     featured: true
@@ -450,7 +381,7 @@ export const INITIAL_PORTFOLIO: PortfolioItem[] = [
     client: 'Al Bustan Palace Hotel',
     location: 'Muscat, Oman',
     year: '2024',
-    coverImage: '/images/banner_image_1.png',
+    coverImage: '/images/Portfolio5.png',
     description: 'Precision fiber laser cutting and fiber chemical engraving on brushed brass and 316-grade stainless steel directional hotel plates.',
     tags: ['3D Laser Cut', 'Engraving', 'Stainless Steel', 'Hospitality'],
     featured: false
@@ -462,7 +393,7 @@ export const INITIAL_PORTFOLIO: PortfolioItem[] = [
     client: 'EcoRecycle Oman',
     location: 'Muscat International Airport',
     year: '2025',
-    coverImage: '/images/service2.png',
+    coverImage: '/images/Portfolio6.png',
     description: 'Seamless vinyl graphic wrapping of automated smart reverse vending stations with custom die-cut matte graphics and anti-scratch coating.',
     tags: ['Product Wrapping', 'Airport Installation', 'Matte Vinyl', 'Die-Cut'],
     featured: false
