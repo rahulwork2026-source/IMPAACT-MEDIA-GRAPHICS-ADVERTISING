@@ -15,16 +15,16 @@ export const Logo: React.FC<LogoProps> = ({
 }) => {
   const [hasError, setHasError] = useState(false);
 
-  // Proportional sizing calibrated for PC, tablet, and mobile with sharp text visibility
+  // The supplied logo is a wide mark; fixed heights keep it crisp and aligned in each layout.
   const sizeClasses = {
-    sm: "h-7 sm:h-8 md:h-8.5 w-auto max-w-[180px] sm:max-w-[200px] md:max-w-[220px]",
-    md: "h-8 sm:h-8.5 md:h-9 lg:h-9.5 xl:h-10 w-auto max-w-[200px] sm:max-w-[225px] md:max-w-[250px] lg:max-w-[280px] xl:max-w-[310px]",
-    lg: "h-9.5 sm:h-11 md:h-12 lg:h-13 w-auto max-w-[240px] sm:max-w-[270px] md:max-w-[300px] lg:max-w-[340px]",
-    xl: "h-13 sm:h-15 md:h-17 w-auto max-w-[320px] sm:max-w-[380px] md:max-w-[440px]",
+    sm: "h-6 sm:h-7 w-auto max-w-[190px]",
+    md: "h-7 sm:h-8 md:h-9 w-auto max-w-[220px] sm:max-w-[250px]",
+    lg: "h-9 sm:h-10 md:h-11 w-auto max-w-[280px]",
+    xl: "h-12 sm:h-14 md:h-16 w-auto max-w-[380px]",
   };
 
   const currentSizeClass = sizeClasses[size] || sizeClasses.md;
-  const logoSrc = variant === "dark" ? "/images/logo-white.png" : "/images/logo.png";
+  const logoSrc = "/images/logonew-header.png";
 
   if (hasError) {
     // Elegant fallback if image asset is unavailable
@@ -54,20 +54,14 @@ export const Logo: React.FC<LogoProps> = ({
 
   return (
     <div
-      className={`logo div.logo-wrapper inline-flex items-center justify-center select-none transition-transform duration-200 hover:scale-[1.02] ${className}`}
+      className={`logo inline-flex items-center justify-center overflow-hidden rounded-sm bg-white p-0.5 select-none transition-transform duration-200 hover:scale-[1.02] ${className}`}
     >
       <img
         id={id}
         src={logoSrc}
         alt="IMPAACT MEDIA Graphics & Advertising"
         onError={(e) => {
-          // If dark logo variant fails, try default logo
-          const target = e.currentTarget;
-          if (target.src.includes("logo-white.png")) {
-            target.src = "/images/logo.png";
-          } else {
-            setHasError(true);
-          }
+          setHasError(true);
         }}
         className={`${currentSizeClass} object-contain transition-all duration-300`}
         style={{
@@ -81,4 +75,3 @@ export const Logo: React.FC<LogoProps> = ({
 };
 
 export default Logo;
-
