@@ -581,3 +581,15 @@ html.light .mobile-menu-overlay [class*="bg-[#272932]"] {
   background-color: #f3f4f6 !important;
   border-color: #d1d5db !important;
 }
+
+/* Page banners retain a dark photographic overlay in both themes. Keep their
+   headings, descriptions, and breadcrumbs white so they remain readable. */
+html.light .page-banner,
+html.light .page-banner .text-white,
+html.light .page-banner .text-zinc-100,
+html.light .page-banner .text-zinc-200,
+html.light .page-banner .text-zinc-300,
+html.light .page-banner .text-zinc-400,
+html.light .page-banner [class*="text-[#f4f4f6]"] {
+  color: #ffffff !important;
+}

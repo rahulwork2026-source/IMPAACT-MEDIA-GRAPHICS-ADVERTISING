@@ -40,7 +40,7 @@ export const ContactView: React.FC<ContactViewProps> = ({ onAddQuoteRequest, set
   return (
     <div className="bg-black text-white space-y-16 pb-16">
       {/* 1. TOP HERO BANNER IMAGE WITH OVERLAY */}
-      <section className="relative w-full h-[240px] sm:h-[300px] lg:h-[340px] overflow-hidden flex items-center justify-center border-b border-white/10">
+      <section className="page-banner relative w-full h-[240px] sm:h-[300px] lg:h-[340px] overflow-hidden flex items-center justify-center border-b border-white/10">
         {/* Banner Background Image */}
         <img
           src="/images/banner_image_2.png"
@@ -319,4 +319,3 @@ export const ContactView: React.FC<ContactViewProps> = ({ onAddQuoteRequest, set
     </div>
   );
 };
-

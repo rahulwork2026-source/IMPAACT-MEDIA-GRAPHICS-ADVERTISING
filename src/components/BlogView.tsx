@@ -31,7 +31,7 @@ export const BlogView: React.FC<BlogViewProps> = ({
   return (
     <div className="bg-black text-white space-y-12 pb-16">
       {/* 1. TOP HERO BANNER IMAGE WITH OVERLAY */}
-      <section className="relative w-full h-[240px] sm:h-[300px] lg:h-[340px] overflow-hidden flex items-center justify-center border-b border-white/10">
+      <section className="page-banner relative w-full h-[240px] sm:h-[300px] lg:h-[340px] overflow-hidden flex items-center justify-center border-b border-white/10">
         {/* Banner Background Image */}
         <img
           src="/images/banner_image_4.png"
@@ -218,4 +218,3 @@ export const BlogView: React.FC<BlogViewProps> = ({
     </div>
   );
 };
-

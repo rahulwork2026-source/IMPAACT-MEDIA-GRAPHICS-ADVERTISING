@@ -72,8 +72,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               ? 'bg-[#121316]/95 backdrop-blur-xl border-b border-white/[0.08] shadow-lg text-[#f4f4f6]' 
               : 'bg-[#121316]/85 backdrop-blur-md border-b border-white/[0.05] text-[#f4f4f6]'
             : scrolled
-              ? 'bg-[#f3f4f6]/95 backdrop-blur-xl border-b border-[#e2e4e9] shadow-md text-[#18191e]'
-              : 'bg-[#f3f4f6]/90 backdrop-blur-md border-b border-[#e2e4e9]/80 text-[#18191e]'
+              ? 'bg-[#f3f4f6]/95 backdrop-blur-xl border-b border-[#e2e4e9] shadow-md text-black'
+              : 'bg-[#f3f4f6]/90 backdrop-blur-md border-b border-[#e2e4e9]/80 text-black'
         }`}
       >
         <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-2.5 sm:py-3 flex items-center justify-between min-h-[62px] sm:min-h-[68px] md:min-h-[72px] gap-2 sm:gap-3">
@@ -103,8 +103,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                       onClick={() => handleNavClick(item.tab)}
                       className={`relative px-2 xl:px-3 py-1.5 text-[11px] xl:text-xs font-bold uppercase tracking-wider transition-all duration-200 flex items-center gap-1 whitespace-nowrap leading-none ${
                         isActive || servicesDropdownOpen
-                          ? isDarkMode ? 'text-white font-bold' : 'text-zinc-950 font-bold'
-                          : isDarkMode ? 'text-zinc-300 hover:text-white' : 'text-zinc-600 hover:text-zinc-950'
+                          ? isDarkMode ? 'text-white font-bold' : 'text-black font-bold'
+                          : isDarkMode ? 'text-zinc-300 hover:text-white' : 'text-black hover:text-black'
                       }`}
                     >
                       <span className="whitespace-nowrap">{item.label}</span>
@@ -167,8 +167,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                   onClick={() => handleNavClick(item.tab)}
                   className={`relative px-2 xl:px-3 py-1.5 text-[11px] xl:text-xs font-bold uppercase tracking-wider transition-all duration-200 whitespace-nowrap leading-none shrink-0 ${
                     isActive 
-                      ? isDarkMode ? 'text-white font-bold' : 'text-zinc-950 font-bold'
-                      : isDarkMode ? 'text-zinc-300 hover:text-white' : 'text-zinc-600 hover:text-zinc-950'
+                      ? isDarkMode ? 'text-white font-bold' : 'text-black font-bold'
+                      : isDarkMode ? 'text-zinc-300 hover:text-white' : 'text-black hover:text-black'
                   }`}
                 >
                   <span className="whitespace-nowrap">{item.label}</span>
@@ -494,4 +494,3 @@ export const Navbar: React.FC<NavbarProps> = ({
     </>
   );
 };
-

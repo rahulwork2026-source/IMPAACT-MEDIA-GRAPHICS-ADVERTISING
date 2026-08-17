@@ -46,7 +46,7 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
       <FloatingObjects />
 
       {/* 1. TOP HERO BANNER IMAGE WITH OVERLAY */}
-      <section className="relative w-full h-[260px] sm:h-[320px] lg:h-[360px] overflow-hidden flex items-center justify-center border-b border-white/10">
+      <section className="page-banner relative w-full h-[260px] sm:h-[320px] lg:h-[360px] overflow-hidden flex items-center justify-center border-b border-white/10">
         {/* Banner Background Image */}
         <img
           src="/images/banner_image_3.png"
