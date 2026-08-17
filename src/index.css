@@ -3,7 +3,7 @@
 /* Local Font Face mappings for Nissan Brand */
 @font-face {
   font-family: 'Nissan Brand';
-  src: local('Nissan Brand Regular'), local('Nissan Brand'), local('NissanBrand-Regular'), local('NissanBrand-Regular.otf');
+  src: url('/fonts/NissanBrand-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Nissan Brand';
-  src: local('Nissan Brand Bold'), local('NissanBrand-Bold'), local('NissanBrand-Bold.otf');
+  src: url('/fonts/NissanBrand-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'Nissan Brand';
-  src: local('Nissan Brand Light'), local('NissanBrand-Light'), local('NissanBrand-Light.otf');
+  src: url('/fonts/NissanBrand-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: 'Nissan Brand Regular';
-  src: local('Nissan Brand Regular'), local('Nissan Brand'), local('NissanBrand-Regular');
+  src: url('/fonts/NissanBrand-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: 'Nissan Brand Bold';
-  src: local('Nissan Brand Bold'), local('NissanBrand-Bold');
+  src: url('/fonts/NissanBrand-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -43,7 +43,7 @@
 
 @font-face {
   font-family: 'Nissan Brand Light';
-  src: local('Nissan Brand Light'), local('NissanBrand-Light');
+  src: url('/fonts/NissanBrand-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -549,6 +549,5 @@ html.light .fixed.inset-0.bg-black\/60,
 html.light .fixed.inset-0.bg-black\/50 {
   background-color: rgba(18, 19, 22, 0.5) !important;
 }
-
 
 
