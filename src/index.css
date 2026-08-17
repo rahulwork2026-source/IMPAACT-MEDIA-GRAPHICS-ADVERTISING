@@ -420,6 +420,18 @@ html.light .bg-black\/40 {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
 }
 
+html.light .bg-zinc-800,
+html.light .bg-zinc-700 {
+  background-color: #e5e7eb !important;
+  color: #18191e !important;
+}
+
+/* Keep hover states legible after dark card surfaces are remapped for day mode. */
+html.light .hover\:bg-zinc-900:hover,
+html.light .hover\:bg-zinc-800:hover {
+  background-color: #dfe3e8 !important;
+}
+
 /* Header in Light Mode */
 html.light header {
   background-color: rgba(243, 244, 246, 0.94) !important;
@@ -560,4 +572,12 @@ html.light .fixed.inset-0.bg-black\/70,
 html.light .fixed.inset-0.bg-black\/60,
 html.light .fixed.inset-0.bg-black\/50 {
   background-color: rgba(18, 19, 22, 0.5) !important;
+}
+
+/* The mobile navigation is an overlay, so its fixed dark controls need light
+   surfaces when the website is set to day mode. */
+html.light .mobile-menu-overlay [class*="bg-[#1f2128]"],
+html.light .mobile-menu-overlay [class*="bg-[#272932]"] {
+  background-color: #f3f4f6 !important;
+  border-color: #d1d5db !important;
 }

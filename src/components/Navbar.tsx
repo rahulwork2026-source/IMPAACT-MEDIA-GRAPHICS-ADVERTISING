@@ -279,7 +279,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.98 }}
             transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
-            className="fixed inset-2 sm:inset-6 z-[100] bg-[#141519] border border-white/10 rounded-3xl p-6 sm:p-10 shadow-2xl flex flex-col justify-between overflow-y-auto"
+            className={`mobile-menu-overlay fixed inset-2 sm:inset-6 z-[100] rounded-3xl p-6 sm:p-10 shadow-2xl flex flex-col justify-between overflow-y-auto ${
+              isDarkMode
+                ? 'bg-[#141519] border border-white/10 text-white'
+                : 'bg-white border border-zinc-200 text-[#18191e]'
+            }`}
           >
             {/* Overlay Top Bar */}
             <div className="flex items-center justify-between border-b border-white/[0.08] pb-4">
@@ -490,5 +494,4 @@ export const Navbar: React.FC<NavbarProps> = ({
     </>
   );
 };
-
 
