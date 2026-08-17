@@ -8,10 +8,10 @@ interface LogoProps {
 }
 
 const sizeClasses = {
-  sm: "w-[104px] sm:w-[112px]",
-  md: "w-[116px] sm:w-[124px] lg:w-[132px]",
-  lg: "w-[160px] sm:w-[176px]",
-  xl: "w-[200px] sm:w-[224px]",
+  sm: "w-[112px] sm:w-[120px]",
+  md: "w-[128px] sm:w-[138px] lg:w-[148px]",
+  lg: "w-[176px] sm:w-[192px]",
+  xl: "w-[216px] sm:w-[240px]",
 };
 
 export const Logo: React.FC<LogoProps> = ({
@@ -30,7 +30,7 @@ export const Logo: React.FC<LogoProps> = ({
           ? "/images/logo white.png"
           : "/images/logo black.png"}
         alt="IMPAACT MEDIA Graphics & Advertising"
-        className="block h-auto w-full"
+        className="block h-auto w-full drop-shadow-[0_1px_1px_rgba(0,0,0,0.18)]"
         draggable={false}
       />
     </div>
