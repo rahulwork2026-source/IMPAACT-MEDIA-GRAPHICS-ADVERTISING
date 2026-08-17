@@ -593,3 +593,21 @@ html.light .page-banner .text-zinc-400,
 html.light .page-banner [class*="text-[#f4f4f6]"] {
   color: #ffffff !important;
 }
+
+/* Preserve contrast on the About Us photograph in day mode. The image uses a
+   dark vignette and badge, which must not inherit the page's light surfaces. */
+html.light .about-media .bg-gradient-to-t {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent, rgba(0, 0, 0, 0.3)) !important;
+}
+
+html.light .about-media .bg-black\/85 {
+  background-color: rgba(10, 10, 12, 0.88) !important;
+}
+
+html.light .about-media .text-white {
+  color: #ffffff !important;
+}
+
+html.light .about-media .text-zinc-400 {
+  color: #d1d5db !important;
+}

@@ -140,7 +140,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ setActiveTab, onOpenQuoteM
             <div className="absolute -inset-2 bg-gradient-to-r from-[#e52425]/30 to-red-900/20 rounded-3xl blur-2xl opacity-50 group-hover:opacity-100 transition-opacity pointer-events-none" />
 
             {/* Main Image Container */}
-            <div className="relative rounded-2xl overflow-hidden border-2 border-white/15 bg-zinc-950 shadow-2xl group hover:border-[#e52425]/60 transition-all duration-300 bw-glass">
+            <div className="about-media relative rounded-2xl overflow-hidden border-2 border-white/15 bg-zinc-950 shadow-2xl group hover:border-[#e52425]/60 transition-all duration-300 bw-glass">
               <img
                 src="/images/About%20Us.png"
                 alt="About Us IMPAACT MEDIA Oman Factory"

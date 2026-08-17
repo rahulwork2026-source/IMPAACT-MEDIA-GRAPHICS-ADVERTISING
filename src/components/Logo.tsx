@@ -8,10 +8,10 @@ interface LogoProps {
 }
 
 const sizeClasses = {
-  sm: "w-[112px] sm:w-[120px]",
-  md: "w-[128px] sm:w-[138px] lg:w-[148px]",
-  lg: "w-[176px] sm:w-[192px]",
-  xl: "w-[216px] sm:w-[240px]",
+  sm: "w-[132px] sm:w-[144px]",
+  md: "w-[158px] sm:w-[174px] lg:w-[190px]",
+  lg: "w-[208px] sm:w-[232px]",
+  xl: "w-[260px] sm:w-[288px]",
 };
 
 export const Logo: React.FC<LogoProps> = ({
