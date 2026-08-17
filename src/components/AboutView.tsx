@@ -142,7 +142,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ setActiveTab, onOpenQuoteM
             {/* Main Image Container */}
             <div className="relative rounded-2xl overflow-hidden border-2 border-white/15 bg-zinc-950 shadow-2xl group hover:border-[#e52425]/60 transition-all duration-300 bw-glass">
               <img
-                src="/images/portfolio2.png"
+                src="/images/About%20Us.png"
                 alt="About Us IMPAACT MEDIA Oman Factory"
                 className="w-full h-[380px] sm:h-[440px] object-cover object-center filter contrast-110 brightness-90 group-hover:scale-105 transition-transform duration-700 ease-out"
               />
