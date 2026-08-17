@@ -376,11 +376,11 @@ html.light .hero-section {
 
 /* Gradient Overlay adjustments in Hero Section for Light Mode */
 html.light .hero-section .bg-gradient-to-r {
-  background-image: linear-gradient(to right, rgba(243, 244, 246, 0.96), rgba(243, 244, 246, 0.82), rgba(243, 244, 246, 0.25)) !important;
+  background-image: linear-gradient(to right, rgba(243, 244, 246, 0.7), rgba(243, 244, 246, 0.38), rgba(243, 244, 246, 0.08)) !important;
 }
 
 html.light .hero-section .bg-gradient-to-t {
-  background-image: linear-gradient(to top, rgba(243, 244, 246, 0.98), transparent, rgba(243, 244, 246, 0.35)) !important;
+  background-image: linear-gradient(to top, rgba(243, 244, 246, 0.42), transparent, rgba(243, 244, 246, 0.12)) !important;
 }
 
 /* Fixed dark controls become light surfaces in day mode. */
