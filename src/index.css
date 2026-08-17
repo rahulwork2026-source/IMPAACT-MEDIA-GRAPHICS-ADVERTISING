@@ -383,6 +383,12 @@ html.light .hero-section .bg-gradient-to-t {
   background-image: linear-gradient(to top, rgba(243, 244, 246, 0.98), transparent, rgba(243, 244, 246, 0.35)) !important;
 }
 
+/* Fixed dark controls become light surfaces in day mode. */
+html.light .hero-section [class*="bg-[#18191e]"] {
+  background-color: rgba(255, 255, 255, 0.92) !important;
+  border-color: #d1d5db !important;
+}
+
 /* Page Top Banner Overlays */
 html.light section .bg-gradient-to-t {
   background-image: linear-gradient(to top, #f3f4f6, rgba(243, 244, 246, 0.7), rgba(243, 244, 246, 0.2)) !important;
@@ -438,6 +444,12 @@ html.light h4.text-white,
 html.light span.text-white,
 html.light p.text-white,
 html.light a.text-white {
+  color: #18191e !important;
+}
+
+/* Components that use the near-white brand token directly need the same
+   foreground adjustment as `text-white` when the site is in day mode. */
+html.light [class*="text-[#f4f4f6]"] {
   color: #18191e !important;
 }
 
@@ -549,5 +561,3 @@ html.light .fixed.inset-0.bg-black\/60,
 html.light .fixed.inset-0.bg-black\/50 {
   background-color: rgba(18, 19, 22, 0.5) !important;
 }
-
-
