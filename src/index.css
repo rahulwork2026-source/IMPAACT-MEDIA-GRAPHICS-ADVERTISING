@@ -611,3 +611,11 @@ html.light .about-media .text-white {
 html.light .about-media .text-zinc-400 {
   color: #d1d5db !important;
 }
+
+/* Make the primary homepage message unequivocally black in day mode. */
+html.light .hero-section h1,
+html.light .hero-section p,
+html.light .hero-section .text-zinc-300,
+html.light .hero-section .text-zinc-400 {
+  color: #000000 !important;
+}
